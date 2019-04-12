@@ -1,0 +1,30 @@
+{
+  "name": "lnks-payment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bn.js": "^4.11.8",
+    "fs": "0.0.1-security",
+    "moment": "^2.20.1",
+    "truffle-contract": "^3.0.1",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.27",
+    "zeppelin-solidity": "^1.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
