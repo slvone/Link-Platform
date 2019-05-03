@@ -1,0 +1,51 @@
+@import "header.scss";
+
+html, body { background-color: #1c2e4d !important; }
+
+input { max-width: 200px; }
+input { color: #000 !important; }
+
+#root { color: #f9f9f9; font-family: 'Montserrat';
+	h1, h2, h3, h4, h5, h6, p { color: #f9f9f9; font-weight: 300; }
+	h1 { margin-top: 30px; }
+	h2 { margin-top: 30px; }
+	h4 { font-size: 28px; margin-top: 25px; font-weight: 200; text-align: center; }
+	h5 { margin-top: 30px; font-size: 15px; font-weight: 200; }
+	a {
+		&:hover, &:focus, &:visited { text-decoration: none; }
+	}
+
+	.ant-form-item { margin-bottom: 15px; }
+	.ant-table-thead > tr > th, .ant-table-tbody > tr > td { background: #fff; }
+	.ant-btn-primary { background-color: #64b0ed !important; border-color: #64b0ed !important; }
+	.ant-upload-list-item { background: #fff; border-radius: 3px; }
+	.has-error .ant-form-explain { margin-top: 5px; }
+}
+
+#header {
+	hr { border-bottom: 5px solid #fff; padding: 0 15px; clear: both; }
+	h2 { float: left; margin: 0; padding: 30px 0 45px; text-align:left; font-weight:300; font-size: 32px; }
+	button { float: right; margin: 30px 0 0 0; }
+}
+
+.datum { font-size: 21px; color: #7babef; }
+
+#buy-redeem-link-container { text-align: center; padding-top: 90px;
+	#buy-redeem-link { color: #fff; display: inline-block; height: 50px; line-height: 50px; padding: 0 20px; border-radius: 3px; font-weight: 300; font-size: 22px;}
+}
+
+#buydirect {
+	h5 { margin-top: 0; }
+	h6 { margin-top: 10px; }
+}
+
+#buydirect, #redeem {
+	input { max-width: 300px; }
+}
+
+#login, #register, #password-recovery { padding: 30px 0;
+	.logo { width: 150px; }
+	a { color: #fff; font-weight: 300; }
+	h5 { margin: 0 0 20px 0; }
+	label { color: #fff; font-weight: 400; margin-right: 15px; }
+}
